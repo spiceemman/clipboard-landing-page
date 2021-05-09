@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: rgb(245, 243, 243);
+	background-image: url(../bg-header-mobile.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	font-family: Bai Jamjuree;
+	text-align: center;
+	font-size: 18px;
+	color: #4c5153
+}
+
+h1{
+	width: 70vw;
+	text-align: center;
+	margin: 30px auto 20px;
+	letter-spacing: 0.5px;
+	font-weight: 600px;
+	color: #495055;
+}
+
+h2{
+	width: 70vw;
+	text-align: center;
+	margin: 50px auto 20px;
+	letter-spacing: 0.5px;
+	font-weight: 600px;
+	color: #495055;
+}
+
+h3{
+	margin: 40px 0 0;
+	color: #495055;
+}
+
+
+p {
+	width: 75vw;
+	text-align: center;
+	margin: 30px auto 40px;
+	font-weight: 400px;
+	font-size: 16px;
+}
+
+button{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 20px auto;
+	width: 70vw;
+	height: 45px;
+	padding: 10px;
+	border: none;
+	border-radius:20px;
+	letter-spacing: 0.5px;
+	font-weight: bold;
+}
+
+img{
+	margin-top: 40px;
+}
+
+footer{
+	margin-top: 80px;
+	padding: 20px;
+	background-color: #e0e2e4;
+}
+
+
+.btn-1{
+	background-color: #26baa4;
+	color: #fff;
+}
+
+.btn-2{
+	background-color: #6173ff;
+	color: #fff;
+	margin-bottom: 30px;
+}
+
+.btn-1:hover{
+	background-color:rgb(76, 180, 180);
+	color: black;
+}
+
+.btn-2:hover{
+	background-color:rgb(155, 161, 211);
+	color: black;
+}
+
+.first-section{
+	margin: 100px auto 30px;
+}
+
+.logo-img{
+	width: 25%;
+	height: 25%;
+	margin: 0 auto;
+}
+
+.device-img-one{
+	width: 85vw;
+	margin: 40px auto 30px;
+}
+
+.device-img-two{
+	width: 85vw;
+	margin: 40px auto 30px;
+}
+
+.brand-logo-section{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.brand-logo{
+	width: 33vw;
+	margin: 48px auto;
+}
+
+.footer-img{
+	width: 15%;
+	height: 15%;
+	margin: 45px auto 20px;
+}
+
+.footer-links{
+	color: #77858d;
+	display: flex;
+	flex-direction: inherit;
+	justify-content: center;
+	align-items: center;
+	padding-top: 18px;
+	text-decoration: none;
+	margin-top: 10px;
+}
+
+.footer-icon {
+	margin: 40px 10px;
+	color: #495055;
+	padding: 3px;
+  }
+
+@media only screen and (min-width: 1440px){
+	.logo-img {
+		width: 10%;
+		height: 10%;
+		margin: 0 auto;
+	}
+
+	button {
+   		display: inline-block;
+   		margin: 20px auto;
+   		width: 12vw;
+   		height: 35px;
+   		padding: 15px;
+	}
+
+	.btn-1{
+		margin-right: 10px;
+	}
+
+	.btn-2{
+		margin-left: 10px;
+	}
+
+	h1 {
+		width: 32vw;
+	}
+
+	.first-section p{
+		width: 45vw
+	}
+
+	.child-two-div{
+		display: grid;
+		grid-template-columns: auto auto;
+		grid-gap: 100px;
+	}
+
+	.section-two p{
+		width: 45vw
+	}
+
+	.device-img-one{
+		width: 100%;
+		height: 90%;
+		margin-left: -40px
+	}
+
+	.article-two {
+		width: 75%;
+		text-align: left;
+		margin-top: 50px;
+	}
+
+	.article-two-child{
+		width: 100%;
+		margin-top: 50px;;
+	}
+
+	.article-two-child h3{
+		margin-bottom: 20px;;
+	}
+
+	.article-two-child p{
+		display: inline;
+		text-align: left;
+		line-height: 1.5;
+	}
+
+	.clip h2 {
+		width: 32vw;
+	}
+
+	.clip p{
+		width: 45vw;
+		line-height: 2;
+	}
+
+	.device-img-two{
+		width: 60%;
+	}
+
+	.workflow-div{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+	.workflow{
+		width: 90%
+	}
+
+	.workflow-p{
+		width: 75%;
+	}
+
+	.brand-logo-section{
+		width: 100%;
+		flex-direction: row;
+	}
+
+	.brand-logo{
+		margin: 5%;
+	}
+
+	.last-section-h2 {
+		width: 32vw;
+	}
+
+	.last-section-p{
+		width: 45vw;
+		line-height: 2;
+	}
+
+	footer{
+		display: grid;
+		grid-template-columns: 1fr 4fr 1fr;
+	}
+
+	.footer-img{
+		width: auto;
+		height: auto;
+	}
+
+	.footer-links-div{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+	.footer-icon-div{
+		margin: auto;
+	}
+} 

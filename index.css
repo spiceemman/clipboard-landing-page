@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: rgb(245, 243, 243);
+	background-image: url(../bg-header-mobile.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	font-family: Bai Jamjuree;
+	text-align: center;
+	font-size: 18px;
+	color: #4c5153
+}
+
+h1{
+	width: 70vw;
+	text-align: center;
+	margin: 30px auto 20px;
+	letter-spacing: 0.5px;
+	font-weight: 600px;
+	color: #495055;
+}
+
+h2{
+	width: 70vw;
+	text-align: center;
+	margin: 120px auto 20px;
+	letter-spacing: 0.5px;
+	font-weight: 600px;
+	color: #495055;
+}
+
+h3{
+	margin: 40px 0 0;
+	color: #495055;
+}
+
+
+p {
+	width: 75vw;
+	text-align: center;
+	margin: 30px auto 40px;
+	font-weight: 400px;
+	font-size: 16px;
+}
+
+button{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 20px auto;
+	width: 70vw;
+	height: 45px;
+	padding: 10px;
+	border: none;
+	border-radius:20px;
+	letter-spacing: 0.5px;
+	font-weight: bold;
+}
+
+img{
+	margin-top: 40px;
+}
+
+footer{
+	margin-top: 80px;
+	padding: 20px;
+	background-color: #e0e2e4;
+}
+
+
+.btn-1{
+	background-color: #26baa4;
+	color: #fff;
+}
+
+.btn-2{
+	background-color: #6173ff;
+	color: #fff;
+	margin-bottom: 60px;
+}
+
+.btn-1:hover{
+	background-color:rgb(76, 180, 180);
+	color: black;
+}
+
+.btn-2:hover{
+	background-color:rgb(155, 161, 211);
+	color: black;
+}
+
+.first-section{
+	margin: 100px auto 30px;
+}
+
+.logo-img{
+	width: 25%;
+	height: 25%;
+	margin: 0 auto;
+}
+
+.device-img-one{
+	width: 85vw;
+	margin: 40px auto 30px;
+}
+
+.device-img-two{
+	width: 85vw;
+	margin: 40px auto 30px;
+}
+
+.brand-logo-section{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.brand-logo{
+	width: 33vw;
+	margin: 48px auto;
+}
+
+.footer-img{
+	width: 15%;
+	height: 15%;
+	margin: 45px auto 20px;
+}
+
+.footer-links{
+	color: #77858d;
+	display: flex;
+	flex-direction: inherit;
+	justify-content: center;
+	align-items: center;
+	padding-top: 18px;
+	text-decoration: none;
+	margin-top: 10px;
+}
+
+.footer-icon {
+	margin: 40px 10px;
+	color: #495055;
+	padding: 3px;
+  }
+
+
+  @media screen and (min-width: 768px) {
+	.logo-img{
+		width: 10%;
+		height: 10%;
+		margin: 0 auto;
+	}
+	h1{
+		width: 58vw;
+		margin: 30px auto 15px;
+	}
+
+	p {
+		width: 65vw;
+		text-align: center;
+		margin: 30px auto 40px;
+		font-weight: 400px;
+		font-size: 16px;
+	}
+
+	button{
+		display: inline-block;
+		margin: 20px auto 10px;
+		width: 20vw;
+		height: 45px;
+		text-align: center;
+	}
+
+	.btn-1{
+		margin-right: 5px;
+	}
+	
+	.btn-2{
+		margin-left: 5px;
+	}
+
+	.first-section h2, .section-two h2{
+		width: 48vw;
+		margin: 10px auto 20px;
+	}
+	.device-img{
+		width: 50%;
+		margin-top: 100px;
+	}
+
+	.device-img-one{
+		float: left;
+	}
+
+	.article-two{
+		margin-top: 150px;
+	}
+
+	.article-two-p, h3{
+		width: 40%;
+		margin-top: 10px;
+		margin-left: 400px;
+		text-align: left;
+		line-height: 1.2;
+	}
+
+	.device-img-two{
+		margin-top: 20px;
+	}
+	.w-img{
+		height: 40px;
+	}
+	.workflow-div{
+		display: flex;
+		flex-direction: row;
+		width: 90vw;
+		margin: 40px auto;;
+	}
+	.workflow{
+		width: 30%;
+		margin: 20px auto;
+	}
+	.workflow h3{
+		width: auto;
+		margin: auto;
+		text-align: center;
+	}
+	.workflow-p{
+		width: 100%;
+	}
+	.brand-logo-section{
+		width: 90vw;
+		margin: 20px auto;
+		display: flex;
+		flex-direction: row;
+	}
+	.brand-logo{
+		width: 10px;
+		height: 30px;
+	}
+	.brand-logo{
+		width: 33vw;
+		margin: 48px auto;
+	}
+
+	.footer-element{
+		display: flex;
+		flex-direction: row;
+	}
+	
+	.footer-img{
+		width: 10%;
+		height: 10%;
+		margin-left: 30px;
+	}
+	
+	.footer-links-div{
+		margin-left: 30px;
+	}
+	
+	.footer-icon {
+		margin: 40px 10px;
+		color: #495055;
+		padding: 3px;
+	  }
+  }
